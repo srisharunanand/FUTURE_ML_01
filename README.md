@@ -1,6 +1,6 @@
 # Sales Forecasting Machine Learning Project
 
-## 📊 Project Overview
+##  Project Overview
 
 A machine learning project that forecasts daily sales for the next 90 days using historical business data (2014-2017).
 
@@ -12,7 +12,7 @@ A machine learning project that forecasts daily sales for the next 90 days using
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 Predict future sales based on historical data and present results in a way businesses can use for:
 - Inventory planning
@@ -22,7 +22,7 @@ Predict future sales based on historical data and present results in a way busin
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 **Source:** Superstore Sales Dataset  
 **File:** Sample - Superstore.csv  
@@ -33,7 +33,7 @@ Predict future sales based on historical data and present results in a way busin
 
 ---
 
-## 🔍 Data Exploration
+##  Data Exploration
 
 ### Key Statistics:
 - **Total Sales (4 years):** $2,297,200.86
@@ -44,14 +44,14 @@ Predict future sales based on historical data and present results in a way busin
 - **Days with Sales:** 1,237
 
 ### Data Quality:
-- ✅ Zero missing values
-- ✅ No data cleaning needed
-- ✅ Proper date format after conversion
-- ✅ All numeric values valid
+- Zero missing values
+- No data cleaning needed
+- Proper date format after conversion
+- All numeric values valid
 
 ---
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 - Language:           Python 3.13.7
 - IDE:                Jupyter Notebook
 - Libraries:
@@ -61,7 +61,7 @@ Predict future sales based on historical data and present results in a way busin
 • Matplotlib       - Data visualization
 ---
 
-## 📊 Project Workflow
+##  Project Workflow
 
 ### Phase 1: Data Loading & Exploration
 ```python
@@ -130,7 +130,7 @@ for i in range(90):
 
 ---
 
-## 📈 Results & Findings
+##  Results & Findings
 
 ### 90-Day Forecast (Q1 2018)
 - **Period:** January 1 - March 30, 2018
@@ -147,7 +147,7 @@ for i in range(90):
 
 ---
 
-## 💼 Business Recommendations
+##  Business Recommendations
 
 ### 1. Inventory Management
 - **Stock for average:** $3,015/day
@@ -166,7 +166,7 @@ for i in range(90):
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 ### Chart 1: Daily Sales Over Time (2014-2017)
 Shows raw daily sales with significant daily variation.
@@ -184,7 +184,7 @@ Shows that forecast follows historical seasonal patterns.
 
 ---
 
-## 📁 Files in This Repository
+##  Files in This Repository
 
 FUTURE_ML_01/
 │
@@ -208,7 +208,7 @@ FUTURE_ML_01/
 └── forecast_chart.png
 ---
 
-## 🚀 How to Use This Project
+##  How to Use This Project
 
 ### 1. View the Code
 Open `sales_forecast_notebook.ipynb` in Jupyter Notebook
@@ -222,22 +222,22 @@ Open `sales_forecast_notebook.ipynb` in Jupyter Notebook
 - Visualizations: See charts in Visualizations folder
 
 
-## 📊 Model Performance
+##  Model Performance
 
 ### Approach 1: Linear Regression
 - **Accuracy (R²):** 0.0086 (0.86%)
-- **Status:** ❌ Not sufficient
+- **Status:**  Not sufficient
 - **Reason:** Can't capture seasonal patterns
 
 ### Approach 2: Seasonal Forecasting (Final Model)
 - **Method:** Last 30-day average + historical pattern application
 - **Accuracy:** Captures seasonal patterns effectively
-- **Status:** ✅ Accepted
+- **Status:**  Accepted
 - **Validation:** Will be verified against actual 2018 data
 
 ---
 
-## 🔄 Future Improvements
+##  Future Improvements
 
 1. **Add External Factors**
    - Holiday calendars
@@ -265,22 +265,22 @@ Open `sales_forecast_notebook.ipynb` in Jupyter Notebook
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I learned:
 
-✅ Data loading and cleaning with Pandas  
-✅ Exploratory data analysis techniques  
-✅ Time-series analysis and aggregation  
-✅ Feature engineering for temporal data  
-✅ Machine learning model training  
-✅ Visualization and communication  
-✅ Business problem solving with ML  
-✅ Professional documentation practices  
+ Data loading and cleaning with Pandas  
+ Exploratory data analysis techniques  
+ Time-series analysis and aggregation  
+ Feature engineering for temporal data  
+ Machine learning model training  
+ Visualization and communication  
+ Business problem solving with ML  
+ Professional documentation practices  
 
 ---
 
-## 🎓 Key Takeaways
+##  Key Takeaways
 
 1. **ML ≠ Accuracy** - Simple approaches often outperform complex ones
 2. **Context Matters** - Business understanding is as important as code
@@ -290,7 +290,7 @@ Through this project, I learned:
 
 ---
 
-## 📞 Questions or Feedback?
+##  Questions or Feedback?
 
 This project demonstrates core ML competencies:
 - Data manipulation
@@ -301,19 +301,19 @@ This project demonstrates core ML competencies:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License - Feel free to use this for learning purposes
 
 ---
 
-## ✅ Submission Details
+##  Submission Details
 
 - **Program:** Future Interns
 - **Track:** Machine Learning (Code: ML)
 - **Task:** 01
-- **Repository Format:** FUTURE_ML_01 ✅
-- **Visibility:** Public ✅
+- **Repository Format:** FUTURE_ML_01 
+- **Visibility:** Public 
 - **Last Updated:** 14.05.2026
 
 ---
